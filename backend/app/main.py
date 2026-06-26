@@ -73,7 +73,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173"
+        "https://mailpilot-ai-3.onrender.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
